@@ -708,7 +708,7 @@ th {
 
 pre {
   box-shadow:inset -1px -1px #fff,inset 1px 1px gray,inset -2px -2px silver,inset 2px 2px #000;
-  background:#606060;
+  background:#202020;
   padding:4px;
   overflow-x:auto
 }
@@ -728,7 +728,7 @@ figure.highlight {
 
 .toc-container {
     height: 100%;
-    background-color: #606060;
+    background-color: #202020;
     padding: 3px;
 }
 
