@@ -1,9 +1,3 @@
----
-hidden: true
----
-
-@import 'highlighting.scss';
-
 /*
      ________  __________  ______  __       _________
     /_____  / / __  __  / / ____/ / /      / _______/
@@ -712,7 +706,6 @@ th {
   }
 }
 
-
 /* Because Jekyll makes this automatically a figure, we have to override browser styles */
 figure.highlight {
     margin-inline-start: .5rem;
@@ -742,4 +735,39 @@ figure.highlight {
     width: 32px;
     height: 32px;
     margin: 4px;
+}
+
+code .s {
+    color: maroon;
+}
+
+code .k,
+code .kt {
+    color: MediumBlue;
+}
+
+code .c,
+code .c1 {
+    color: green;
+}
+
+// Unline [raised], [raised-button] has it's highlight first.
+@mixin raised-button {
+    box-shadow: inset -1px -1px $control-dark-dark, inset 1px 1px $control-light-light, inset -2px -2px $control-dark, inset 2px 2px $control-light;
+}
+
+@mixin raised {
+    box-shadow: inset -1px -1px $control-dark-dark, inset 1px 1px $control-light, inset -2px -2px $control-dark, inset 2px 2px $control-light-light;
+}
+
+@mixin raised-inner {
+    box-shadow: inset -1px -1px $control-dark-dark, inset 1px 1px $control-light-light;
+}
+
+@mixin sunken {
+    box-shadow: inset -1px -1px $control-light-light, inset 1px 1px $control-dark, inset -2px -2px $control-light,inset 2px 2px $control-dark-dark;
+}
+
+@mixin sunken-outer {
+     box-shadow: inset -1px -1px $control-light-light, inset 1px 1px $control-dark;
 }
