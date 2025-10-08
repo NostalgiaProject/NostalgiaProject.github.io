@@ -5,7 +5,7 @@
     <title>{{page.title}}</title>
 	 <link href="https://raytek.cafe/styles/style.css" rel="stylesheet">
     <!-- <link href="/styles/style.css" rel="stylesheet"> -->
-    <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://raytek.cafe/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="512x512" href="/assets/img/favicon_app.png">
     <meta name="theme-color" content="#008080">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +20,7 @@
 <body>
    <div class="container">
     <div class="page-container">
-	        <div class="page">
+	    <div class="page">
 	       <div class="header">
             <span class="title"><a href="index.html">raytek.cafe</a></span>
             <span class="subtitle">making tech fun again</span>
@@ -33,25 +33,23 @@
                 <div>
                     {{content}}
                 </div>
-                {% unless page.hide-statusbar %}
-                <footer class="statusbar">
-                    <span class="statusbar-box">Page generated on {{ "now" | date: "%Y-%m-%d %H:%M" }}</span>
-                </footer>
-                {% endunless %}
             </div>
+			{% unless page.hide-statusbar %}
 			<div class="footer">
-            <p>Site design is &copy 2025-{{ "now" | date: "%Y" }} amaryllidinae_</p>
-            <p>
-              Star us on
-              <a
-                target="_blank"
-                class="link"
-                href="https://github.com/raytek-cafe"
-                >GitHub</a
-              >
-            </p>
-          </div>
-    </div>
+				<span class="statusbar-box">Page generated on {{ "now" | date: "%Y-%m-%d %H:%M" }}</span>
+					<p>Site design is &copy 2025-{{ "now" | date: "%Y" }} amaryllidinae_</p>
+					<p>
+					Star us on
+					<a
+					target="_blank"
+					class="link"
+					href="https://github.com/raytek-cafe"
+					>GitHub</a
+					>
+					</p>
+			</div>
+			{% endunless %}
+		</div>
 	</div>
 </div>
 </body>
