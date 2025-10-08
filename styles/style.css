@@ -242,11 +242,14 @@ body {
   /* Container for the page itself so we can add a static shadow */
   box-shadow: 0 0 75px var(--secondary-shadow-color); /* Shadow for depth */
   max-width: 850px; /* Set max container width to 850px */
+  width: auto; /* Allow the container to resize based on content */
+  display: flex; /* Use flex to center the container */
+  justify-content: center; /* Center flex items horizontally */
   margin: 0 auto; /* Center the container horizontally */
+  overflow: visible; /* Allow overflow to be visible */
 }
 
 .page {
-  max-width: 850px; /* Set max page width to 850px */
   box-sizing: border-box; /* Include padding and border in element's total width and height */
   background-color: var(--page-color); /* Dark background for the container */
   color: var(--text-color); /* Text color */
