@@ -20,19 +20,17 @@
 <body>
    <div class="container">
     <div class="page-container">
+	        <div class="page">
 	       <div class="header">
             <span class="title"><a href="index.html">raytek.cafe</a></span>
             <span class="subtitle">making tech fun again</span>
             <span class="header-right">&nbsp;</span>
           </div>
         <div class="window">
-            <div class="navbar">
 				{% unless page.hide-navigation %}
                 {% include nav.html %}
                 {% endunless %}
-            </div>
             <div class="content">
-
                 <div>
                     {{content}}
                 </div>
@@ -44,6 +42,7 @@
             </div>
         </div>
     </div>
+	</div>
 </div>
 </body>
     <script src="https://raytek.cafe/scripts/script.js" defer></script>
