@@ -34,8 +34,6 @@ This is a quick guide to enable and use Classic theme on your Windows 8/8.1/10 i
 {% capture disclaimer %}
 Classic theme is deprecated by Microsoft and is no longer supported by them. Many elements have either become broken over the passage of time (e.g. the taskbar in Windows 10, context menus appearing empty) or issues have arisen such as newer programs not rendering properly. <b>In layman’s terms, Classic theme is old, and Microsoft have broken things over the course of development of Windows.</b> 
 {% endcapture %}
-{% include balloon.html title="Please note" description=disclaimer %}
-
 WinClassic is a small community of people that aims to keep Classic theme alive as much as possible. If you decide to you want to use Classic theme on your system, you do so at your own endeavor.
 
 I also ask you read the site rules: <https://winclassic.boards.net/thread/2/rules>
@@ -182,13 +180,6 @@ I also ask you read the site rules: <https://winclassic.boards.net/thread/2/rule
 
 To apply 3D borders to context menus and  the toolbar, you can do so with the third party application "UPMCalc". Uncheck point 17, hit apply and logout. When you log back in, it should take affect. 
 
-{%
-    include balloon.html
-    icon="bulb_16.png"
-    title="Hint"
-    description="Turning ON/OFF 3D borders is included as an option for SimpleClassicTheme users on installation."
-%}
-
 Link: <https://winclassic.boards.net/thread/120/classic-theme-adjusting-upmcalc-border?page=1&scrollTo=318>
 
 ### Remove Address Bar {#remove-address-bar}
@@ -207,17 +198,9 @@ Link: <http://www.quero.at/>
 
 Skins for Quero: [Resources > Quero skins](/resources#quero-skins)
 
-{%
-    include balloon.html
-    title="About Quero installation"
-    description="Quero installs and works on most setups, but a few people have noticed that it wasn't working for them, namely with Windows 8.1."
-%}
-
 ### Restore Classic Sound Events
 
 Windows killed off the logon/logoff and Startup sounds starting with Windows 7. To restore these without resorting to registry tweaks or using other dubious methods, you can use "ClassicSounds", a simple program that adds itself as a service and enables the sounds to play properly.
-
-{% include thread.html thread=329 %}
 
 ### Customize Desktop Icon Font Color/Restore Desktop Color Backgrounds
 
@@ -228,14 +211,6 @@ To find out more, visit [Application Theming > Customizing desktop icon labels](
 ### Classic Display Properties Dialog
 
 Adjusting Classic theme from within Windows 8/8.1/10/11 is no longer possible by default because Microsoft removed support for it in the Personalization panel/Settings. You can restore the ability to customize Classic Theme by using an old dialog from a Windows NT 5.0 beta which still works under modern Windows. 
-
-{% include thread.html thread=906 %}
-{%
-    include balloon.html
-    title="Display Properties Additional Information"
-    description="If you a user of SimpleClassicTheme, this will be installed for you already."
-    icon="bulb_16.png"
-%}
 
 ### WinAero Tweaker
 
