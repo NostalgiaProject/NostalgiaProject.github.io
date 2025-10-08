@@ -708,7 +708,7 @@ th {
 
 pre {
   box-shadow:inset -1px -1px #fff,inset 1px 1px gray,inset -2px -2px silver,inset 2px 2px #000;
-  background:#fff;
+  background:#606060;
   padding:4px;
   overflow-x:auto
 }
