@@ -33,6 +33,10 @@ To download, right click on the icon and click on "Save image", make sure it dow
     <th>2010</th>
     <th>2011</th>
     <th>2012</th>
+	<th>2013</th>
+	<th>2014</th>
+	<th>2015</th>
+	<th>2016</th>
   </tr>
   <tr>
     <th rowspan=3 class="icon-table-publisher"><span>Mozilla</span></th>
@@ -117,6 +121,10 @@ To download, right click on the icon and click on "Save image", make sure it dow
     <th>2010</th>
     <th>2011</th>
     <th>2012</th>
+	<th>2013</th>
+	<th>2014</th>
+	<th>2015</th>
+	<th>2016</th>
   </tr>
   <tr>
     <th class="icon-table-publisher"><span>Valve</span></th>
