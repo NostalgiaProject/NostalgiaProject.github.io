@@ -15,11 +15,6 @@ To download, right click on the icon and click on "Save image", make sure it dow
   <tr>
     <th>Pub.</th>
     <th>Application</th>
-    <th>1990</th>
-    <th>1991</th>
-    <th>1992</th>
-    <th>1993</th>
-    <th>1994</th>
     <th>1995</th>
     <th>1996</th>
     <th>1997</th>

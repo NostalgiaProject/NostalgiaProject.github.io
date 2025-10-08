@@ -738,3 +738,27 @@ figure.highlight {
     flex-direction: column;
     padding-left: 3px;
 }
+
+
+.icon-table td,
+.icon-table th {
+  vertical-align:middle;
+  text-align:center
+}
+.icon-table td {
+  text-align:center;
+  padding:0 2px
+}
+.icon-table img {
+  width:32px;
+  height:32px;
+  top:2px;
+  position:relative
+}
+.icon-table-publisher {
+  vertical-align:middle
+}
+.icon-table-publisher span {
+  display:inline-block;
+  writing-mode:sideways-lr
+}
