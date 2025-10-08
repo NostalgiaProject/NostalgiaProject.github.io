@@ -4,76 +4,17 @@ hidden: true
 
 @import 'variables.scss';
 @import 'borders.scss';
-@import 'fonts.scss';
 
-@import 'classic/classic.scss';
 
 @import 'document-styles.scss';
 @import 'highlighting.scss';
-@import 'taskbar.scss';
-@import 'navigation.scss';
 @import 'example-controls.scss';
-@import 'pages/files.scss';
 
-body {
-    @include ui-font;
-    background: $desktop;
-    margin: 12px;
-}
-
-.inset {
-    @include sunken;
-    border: none;
-    margin: 0;
-    background: #fff;
-    padding: 2px;
-}
-
-.center-container {
-    height: 600px;
-    max-height: 100%;
-    margin: auto;
-}
-
-.window-body {
-    margin: 1px;
-}
-
-// vertical rule
-vr {
-    border-left: 1px solid $control-dark;
-    border-right: 1px solid $control-light-light;
-    margin: 2px 3px;
-}
-
-
-
-pre {
-    @include sunken;
-    background: $window;
-    padding: 4px;    
-    overflow-x: auto;
-}
-
-code {
-    @include code-font;
-}
 
 /* Because Jekyll makes this automatically a figure, we have to override browser styles */
 figure.highlight {
     margin-inline-start: .5rem;
     margin-inline-end: .5rem;
-}
-
-.statusbar {
-    padding: 1px;
-    display: flex;
-}
-
-.statusbar-box {
-    @include sunken-outer;
-    padding: 4px;
-    width: 100%;
 }
 
 .toc-container {
@@ -102,133 +43,4 @@ figure.highlight {
     width: 32px;
     height: 32px;
     margin: 4px;
-}
-
-// TODO: use button mixin
-@mixin link-icon-button($icon, $text) {
-    
-    @include raised-button;
-    @include ui-font;
-    background-color: $control;
-    background-image: url($icon);
-    background-repeat: no-repeat;
-    background-position: 3px 3px;
-
-    box-sizing: border-box;
-    border: none;
-
-    display: inline-block;
-    line-height: 23px;
-
-    border-radius: 0;
-    min-width: 75px;
-    min-height: 23px;
-    
-    padding-left: 26px;
-    padding-right: 12px;
-
-    color: $control-text;
-    text-decoration: none;
-
-    // &:before { content: $text; }
-
-    &:active {
-        @include sunken;
-    }
-
-    &:visited {
-        color: $control-text;
-    }
-}
-
-.download-button {
-    @include link-icon-button("/assets/ico/disk_download_16.png", "Download");
-}
-
-.thread-button {
-    @include link-icon-button("/assets/ico/balloon_16.png", "Thread");
-}
-
-.icon-list {
-    list-style-type:none;
-    padding:0;
-    margin:0;
-    @include ui-font;
-    
-    a {
-        text-decoration: none;
-    }
-
-    li {
-        margin-bottom: 4px;
-    }
-
-    img {
-        vertical-align: middle;
-    }
-}
-
-.home-shortcut {
-    @include button;
-    @include ui-font;
-
-    color: $control-text;
-    text-decoration: none;
-    display: block;
-
-    min-height: 48px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-
-    
-    span {
-        display: block;
-
-        &:first-of-type {
-            font-weight: bold;
-            margin-bottom: 2px;
-        }
-    }
-
-    img {
-        margin-right: 8px;
-        width: 32px;
-        height: 32px;
-    }
-}
-
-.gray {
-    background-color: silver;
-}
-
-.icon-table {
-    td, th {
-        vertical-align: middle;
-        text-align: center;
-    }
-
-    td {
-        text-align: center;
-        padding: 0 2px;
-    }
-    img {
-        width: 32px;
-        height: 32px;
-
-        top: 2px;
-        position: relative;
-    }
-}
-
-.icon-table-publisher {
-  vertical-align: middle;
-
-  span {
-    display: inline-block;
-    writing-mode: sideways-lr;
-    // filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-    // -webkit-transform: rotate(270deg);
-    // -ms-transform: rotate(270deg);
-    // transform: rotate(270deg);
-  }
 }
