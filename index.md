@@ -4,7 +4,7 @@ title: "Home"
 icon: "/assets/ico/home_16.png"
 ---
 
-# Welcome to winclassic.github.io!
+# Raytek Beta (Everything is a placeholder)
 
 ## Guides
 
