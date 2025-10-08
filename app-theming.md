@@ -34,8 +34,6 @@ The Windows Explorer has changed over the years, changing layout and gaining fea
 
 ### Removing the navigation bar
 
-{% include thread.html thread=132 %}
-
 Since Windows Vista, Microsoft does not provide convenient means to remove or hide the Navigation Bar. The Navigation Bar is the bar that includes the navigation buttons (forward, back), the address bar and the search bar.
 
 #### With Classic Theme
@@ -52,8 +50,6 @@ Save it and apply.
 
 
 ### 32px icons with labels
-
-{% include thread.html thread=160 %}
 
 <table class="compat-table">
     <tr>
@@ -97,8 +93,6 @@ Save it and apply.
 </table>
 
 ### Classic toolbar borders
-
-{% include thread.html thread=244 %}
 
 Download the AutoHotkey script below: {% include download-button.html link="/assets/files/ClassicToolbarBorders.ahk" %}
 
