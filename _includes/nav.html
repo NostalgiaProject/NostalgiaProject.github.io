@@ -1,12 +1,9 @@
 <nav class="navigation-icons">
-{% for item in site.data.nav %}
-    {% if item.newGroup %}
-    <vr></vr>
-    {%endif%}
-
-    <a class="navigation-icon" href="{{item.link}}">
-        <img src="{{item.img}}" alt="">
-        <span>{{item.name}}</span>
-    </a>
-{% endfor %}
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="projects.html">projects</a>
+            <a href="contact.html">contact</a>
+            <button id="theme-switcher">
+              <img src="raytek.cafe/styles/img/theme-switcher.png" alt="Toggle theme" />
+            </button>
 </nav>
