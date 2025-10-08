@@ -2,7 +2,6 @@
 hidden: true
 ---
 
-@import 'variables.scss';
 @import 'borders.scss';
 
 
@@ -19,13 +18,11 @@ figure.highlight {
 
 .toc-container {
     height: 100%;
-    background-color: $window;
+    background-color: #FF0000;
     padding: 3px;
-    @include sunken;
 }
 
 .toc-cell {
-    @include ui-font;
     width: 200px;
     display: flex;
     flex-direction: column;
@@ -33,8 +30,7 @@ figure.highlight {
 }
 
 .icon-grid {
-    @include sunken;
-    background-color: $window;
+    background-color: #FF0000;
     width: auto;
     padding: 6px;
 }
