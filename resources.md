@@ -15,11 +15,9 @@ icon: "/assets/ico/dll_16.png"
 1. **Windows 95 to 2000 icons**
     *by [𝑱𝒖𝒍𝒊𝒂](https://winclassic.boards.net/user/1965)*
     {% include download-button.html link="https://winclassic.boards.net/attachment/download/444" %}
-    {% include thread-button.html link="504/full-windows-9x-icon-pack" %}
-
+	
 2. **Windows XP vector icons**
     *by [R.O.B.](https://winclassic.boards.net/user/1)*
-    {% include thread-button.html link="96/resolution-windows-icons-official-microsoft" %}
 
     <div class="icon-grid">
     <img src="/assets/ico/xp_svg/computer_32.png" alt="">
