@@ -242,6 +242,7 @@ body {
   /* Container for the page itself so we can add a static shadow */
   box-shadow: 0 0 75px var(--secondary-shadow-color); /* Shadow for depth */
   max-width: 850px; /* Set max container width to 850px */
+  min-width: 850px;
   width: auto; /* Allow the container to resize based on content */
   display: flex; /* Use flex to center the container */
   justify-content: center; /* Center flex items horizontally */
@@ -311,6 +312,7 @@ a:hover {
   /* Clickable transparent area for JS to detect clicks */
   position: absolute; /* Position header right content absolutely */
   right: 0; /* Align to the right */
+
   min-width: 50%; /* Minimum width for header right content */
   min-height: 100%; /* Minimum height for header right content */
   user-select: none; /* Prevent text selection */
@@ -328,6 +330,7 @@ a:hover {
   user-select: none; /* make text non selectable so its easier to click */
   font-size: 9pt;
   font-style: italic;
+  max-width: 850px;
   font-weight: 400;
   text-shadow: 0 0 5px #fff, 0 0 10px rgba(255, 255, 255, 0.3);
   margin-top: -5px;
